@@ -1,16 +1,60 @@
 ---
 date: 2023-08-01 03:14:00
 layout: post
-title: "Your Post Titlee"
-subtitle:
-description:
-image:
+title: 一篇测试文章
+subtitle: which used to test whether jekyll works properly
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+image: https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png
 optimized_image:
-category:
+category: blog
 tags:
-author:
+author: alex
 paginate: false
 ---
+
+全量markdown语句测试：
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+
+*斜体*测试
+**粗体**测试
+
+## 列表
+* 无序列表
+    * 列表项 1
+    * 列表项 2
+    * 列表项 3
+
+* 有序列表
+    1. 有序列表项 1
+    2. 有序列表项 2
+    3. 有序列表项 3
+
+## 引用块
+> dfsfsdfsdf
+
+## 代码
+### 行内代码
+`hello world`
+### 代码块
+```C
+int main{
+printf("hello world");
+return 0;
+}
+```
+
+值得注意的是我们关注到这个自动解析的markdown是不支持注释功能的
+
+<p>这是一个段落，它有一个脚注。[^footnote-1]</p>
+<div id="footnote-1">
+这是一个脚注。
+</div>
+
+### 大段文字测试
 魯鎮的酒店的格局，是和別處不同的：都是當街一個曲尺形的大柜台，柜里面預備著熱水，可以隨時溫酒。做工的人，傍午傍晚散了工，每每花四文銅錢，買一碗酒，——這是二十多年前的事，現在每碗要漲到十文，——靠柜外站著，熱熱的喝了休息；倘肯多花一文，便可以買一碟鹽煮筍，或者茴香豆，做下酒物了，如果出到十几文，那就能買一樣葷菜，但這些顧客，多是短衣幫，大抵沒有這樣闊綽。只有穿長衫的，才踱進店面隔壁的房子里，要酒要菜，慢慢地坐喝。
 　　我從十二歲起，便在鎮口的咸亨酒店里當伙計，掌柜說，樣子太傻，怕侍候不了長衫主顧，就在外面做點事罷。外面的短衣主顧，雖然容易說話，但嘮嘮叨叨纏夾不清的也很不少。他們往往要親眼看著黃酒從壇子里舀出，看過壺子底里有水沒有，又親看將壺子放在熱水里，然后放心：在這嚴重兼督下，羼水也很為難。所以過了几天，掌柜又說我干不了這事。幸虧荐頭的情面大，辭退不得，便改為專管溫酒的一种無聊職務了。
 　　我從此便整天的站在柜台里，專管我的職務。雖然沒有什么失職，但總覺得有些單調，有些無聊。掌柜是一副凶臉孔，主顧也沒有好聲气，教人活潑不得；只有孔乙己到店，才可以笑几聲，所以至今還記得。
